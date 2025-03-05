@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* CSS Document */
+
+.contact-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+	    width: 100vw; /* Ocupa todo el ancho de la pantalla */
+    height: 100vh; /* Ocupa todo el alto de la pantalla */
+}
+
+.info {
+    width: 40%;
+}
+
+.contact-form {
+    width: 50%;
+}
+
+.social-icons a {
+    margin-right: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #333;
+}
+
+input, textarea, button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #f4a261;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e76f51;
+}
+.bgcocacol {
+    color: #FFFFFF;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    font-style: italic;
+    font-size: x-large;
+}
+.bgchocolate {
+    background-color: #45322E;
+}
+.bgcheesecake {
+    background-color: #E7C99C;
+}
+.bgfrutikaz {
+    background-color: #FFFF55;
+}
+.bgcupcake {
+    background-color: #84C3C8;
+}
+.bgservicioz {
+    background-color: #1C1C1C;
+}
+.bgtitulos {
+    color: #000000;
+    font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+    font-style: normal;
+    font-size: xx-large;
+    font-weight: 700;
+}
+.bg-infofo {
+    color: #000000;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+.bgcolorcheese {
+    color: #E1BC85;
+}
+.bgcolorcup {
+    color: #84C3C8;
+}
+.bgcolofrut {
+    color: #FFFF55;
+}
+.bgcolorcho {
+    color: #45322E;
+}
